@@ -1,0 +1,68 @@
+.sidebar {
+  background: #f8fbff;
+  width: 220px;
+  min-height: 100vh;
+  padding: 32px 16px;
+  border-radius: 32px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #00b2ff;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 16px 0;
+  color: #555;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+nav ul li.active {
+  background: #e6f7ff;
+  color: #00b2ff;
+}
+
+.tools, .setting {
+  margin-top: 32px;
+  color: #888;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  margin: 24px 0 16px 0;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(80,112,255,0.04);
+  padding: 8px 16px;
+  max-width: 420px;
+}
+
+.search-bar {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  padding: 8px 0;
+}
+
+.search-btn {
+  background: #e6f7ff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #00b2ff;
+}

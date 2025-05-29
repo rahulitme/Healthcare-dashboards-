@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

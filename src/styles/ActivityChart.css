@@ -1,0 +1,21 @@
+.activity-chart {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.bar-container {
+  text-align: center;
+}
+
+.bar {
+  width: 20px;
+  background: #1890ff;
+  margin-bottom: 5px;
+}
