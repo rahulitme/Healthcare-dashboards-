@@ -1,12 +1,30 @@
-# React + Vite
+A modern healthcare dashboard built with React, featuring a sidebar, search bar, body scan visualization, health status cards, calendar, and activity chart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Responsive sidebar navigation
+- Search bar at the top of the main content
+- Dashboard with body scan and health status
+- Calendar with upcoming appointments and schedules
+- Activity chart for weekly tracking
+- Clean, modern UI inspired by healthcare admin panels
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deshboard heart/
+├── public/
+│   └── images/
+│       └── body.png
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── CalendarComponent.jsx
+│   │   └── ActivityChart.jsx
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Sidebar.css
+│   │   ├── Dashboard.css
+│   │   └── Calendar.css
+│   └── App.jsx
+└── package.json
+```
+https://healthcare-dashboards-three.vercel.app/
